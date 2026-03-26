@@ -18,7 +18,7 @@
         }
     ],
     "returns": {
-        "description": "A data cube with n bands named after the n bands in the input datacube, suffixed with '_aspect'. Each band contains the computed aspect values (in radians, from due North).  In case the surface is flat, the NaN value is used (since there is no direction of the gradient).",
+        "description": "A data cube with n bands named after the n bands in the input data cube, suffixed with '_aspect'. Each band contains the computed aspect values (in radians, from due North).  In case the surface is flat, the NaN value is used (since there is no direction of the gradient).",
         "schema": {
             "type": "object",
             "subtype": "datacube"
